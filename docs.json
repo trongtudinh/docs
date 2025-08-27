@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Ermis Document",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -11,58 +11,271 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "SDK Client",
+        "icon": "terminal",
         "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "sdk/getting-started/quick-start",
+                  "sdk/getting-started/installation",
+                  "sdk/getting-started/sample-app"
+                ]
+              },
+              {
+                "group": "User",
+                "pages": [
+                  "sdk/user/overview",
+                  {
+                    "group": "Authentication",
+                    "pages": [
+                      "sdk/user/authentication/tokens-and-authentication",
+                      "sdk/user/authentication/initialization-and-users",
+                      "sdk/user/authentication/logging-out"
+                    ]
+                  },
+                  {
+                    "group": "Query users",
+                    "pages": [
+                      "sdk/user/query-users/retrieve-users-in-application",
+                      "sdk/user/query-users/retrieve-users-in-channel"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a user",
+                    "pages": [
+                      "sdk/user/moderation/block-and-unblock",
+                      "sdk/user/moderation/query-list-blocked-users"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving and updating user information",
+                    "pages": [
+                      "sdk/user/retrieve-and-update/update-information",
+                      "sdk/user/retrieve-and-update/retrieve-online-status"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Channel",
+                "pages": [
+                  "sdk/channel/overview",
+                  {
+                    "group": "Overview",
+                    "pages": [
+                      "sdk/channel/overview/channel-types"
+                    ]
+                  },
+                  {
+                    "group": "Creating Channels",
+                    "pages": [
+                      "sdk/channel/creating/create-a-channel"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving Channels",
+                    "pages": [
+                      "sdk/channel/retrieving/retrieve-list-of-channels",
+                      "sdk/channel/retrieving/retrieve-channel-by-url"
+                    ]
+                  },
+                  {
+                    "group": "Searching Channels",
+                    "pages": [
+                      "sdk/channel/searching/search-open-channels",
+                      "sdk/channel/searching/search-group-channels",
+                      "sdk/channel/searching/filter-by-user-ids"
+                    ]
+                  },
+                  {
+                    "group": "Categorizing Channels",
+                    "pages": [
+                      "sdk/channel/categorizing/by-custom-type"
+                    ]
+                  },
+                  {
+                    "group": "Joining and Leaving Channels",
+                    "pages": [
+                      "sdk/channel/join-leave/group-channel",
+                      "sdk/channel/join-leave/open-channel"
+                    ]
+                  },
+                  {
+                    "group": "Managing Operators",
+                    "pages": [
+                      "sdk/channel/operators/register-and-remove",
+                      "sdk/channel/operators/retrieve-operators-list"
+                    ]
+                  },
+                  {
+                    "group": "Inviting Users to a Group Channel",
+                    "pages": [
+                      "sdk/channel/invites/invite-users-as-members",
+                      "sdk/channel/invites/retrieve-list-of-invited-users",
+                      "sdk/channel/invites/accept-invitation",
+                      "sdk/channel/invites/decline-invitation"
+                    ]
+                  },
+                  {
+                    "group": "Managing Channels",
+                    "pages": [
+                      "sdk/channel/managing/hide-or-archive-channel",
+                      "sdk/channel/managing/delete-channel",
+                      "sdk/channel/managing/refresh-channel",
+                      "sdk/channel/managing/manage-channel-metadata",
+                      "sdk/channel/managing/update-channel-properties"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a Channel",
+                    "pages": [
+                      "sdk/channel/moderating/freeze-unfreeze"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Messages",
+                "pages": [
+                  "sdk/messages/overview",
+                  {
+                    "group": "Message types",
+                    "pages": [
+                      "sdk/messages/types/text-message",
+                      "sdk/messages/types/file-message",
+                      "sdk/messages/types/admin-system-message",
+                      "sdk/messages/types/link-preview",
+                      "sdk/messages/types/thumbnails"
+                    ]
+                  },
+                  {
+                    "group": "Sending messages",
+                    "pages": [
+                      "sdk/messages/sending/send-text-message",
+                      "sdk/messages/sending/send-file-message",
+                      "sdk/messages/sending/custom-data",
+                      "sdk/messages/sending/mentions"
+                    ]
+                  },
+                  {
+                    "group": "Receiving & Loading messages",
+                    "pages": [
+                      "sdk/messages/receiving-loading/retrieve-messages",
+                      "sdk/messages/receiving-loading/jump-to-message",
+                      "sdk/messages/receiving-loading/live-updates"
+                    ]
+                  },
+                  {
+                    "group": "Managing a message",
+                    "pages": [
+                      "sdk/messages/managing/copy-message",
+                      "sdk/messages/managing/update-message",
+                      "sdk/messages/managing/delete-message"
+                    ]
+                  },
+                  {
+                    "group": "Reactions",
+                    "pages": [
+                      "sdk/messages/reactions/add-remove-reaction",
+                      "sdk/messages/reactions/query-reactions",
+                      "sdk/messages/reactions/ui-hooks"
+                    ]
+                  },
+                  {
+                    "group": "Replies & Threads",
+                    "pages": [
+                      "sdk/messages/replies-threads/inline-quote-reply",
+                      "sdk/messages/replies-threads/start-join-thread"
+                    ]
+                  },
+                  {
+                    "group": "Pinned messages",
+                    "pages": [
+                      "sdk/messages/pinned/pin-message",
+                      "sdk/messages/pinned/list-pinned-messages",
+                      "sdk/messages/pinned/unpin-message"
+                    ]
+                  },
+                  {
+                    "group": "Translations",
+                    "pages": [
+                      "sdk/messages/translations/auto-translate-on-send",
+                      "sdk/messages/translations/on-demand-translate"
+                    ]
+                  },
+                  {
+                    "group": "Scheduled messages (group channels)",
+                    "pages": [
+                      "sdk/messages/scheduled/create-list",
+                      "sdk/messages/scheduled/update-cancel"
+                    ]
+                  },
+                  {
+                    "group": "Message search",
+                    "pages": [
+                      "sdk/messages/search/search-queries"
+                    ]
+                  },
+                  {
+                    "group": "Mentions",
+                    "pages": [
+                      "sdk/messages/mentions/mention-users",
+                      "sdk/messages/mentions/notifications-and-limits"
+                    ]
+                  },
+                  {
+                    "group": "Moderation (liên quan message)",
+                    "pages": [
+                      "sdk/messages/moderation/flag-unflag",
+                      "sdk/messages/moderation/reporting-and-review"
+                    ]
+                  }
+                ]
+              }
+        ]
+      },
+      {
+        "tab": "UI Components",
+        "icon": "box",
+        "pages": [
+          "ui/overview",
           {
             "group": "Getting started",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "ui/getting-started/installation",
+              "ui/getting-started/quick-start"
+            ]
+          },
+          {
+            "group": "Components",
+            "pages": [
+              "ui/components/channel-list",
+              "ui/components/channel",
+              "ui/components/message-list",
+              "ui/components/message-input",
+              "ui/components/user-profile",
+              "ui/components/typing-indicator",
+              "ui/components/connection-status",
+              "ui/components/invite-members",
+              "ui/components/message-search",
+              "ui/components/authentication"
             ]
           },
           {
             "group": "Customization",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "ui/customization/theming",
+              "ui/customization/custom-components",
+              "ui/customization/localization"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Advanced guides",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "ui/advanced-guides/state-management",
+              "ui/advanced-guides/performance-optimization",
+              "ui/advanced-guides/accessibility"
             ]
           }
         ]
