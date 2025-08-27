@@ -11,48 +11,52 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "SDK Client",
-        "icon": "terminal",
-        "groups": [
+        "tab": "iOS Documentation",
+        "icon": "Apple",
+        "menu": [
+          {
+            "item": "SDK Client",
+            "icon": "book-open-cover",
+            "groups": [
               {
                 "group": "Getting started",
                 "pages": [
-                  "sdk/getting-started/quick-start",
-                  "sdk/getting-started/installation",
-                  "sdk/getting-started/sample-app"
+                  "ios/getting-started/quick-start",
+                  "ios/getting-started/installation",
+                  "ios/getting-started/sample-app"
                 ]
               },
               {
                 "group": "User",
                 "pages": [
-                  "sdk/user/overview",
+                  "ios/user/overview",
                   {
                     "group": "Authentication",
                     "pages": [
-                      "sdk/user/authentication/tokens-and-authentication",
-                      "sdk/user/authentication/initialization-and-users",
-                      "sdk/user/authentication/logging-out"
+                      "ios/user/authentication/tokens-and-authentication",
+                      "ios/user/authentication/initialization-and-users",
+                      "ios/user/authentication/logging-out"
                     ]
                   },
                   {
                     "group": "Query users",
                     "pages": [
-                      "sdk/user/query-users/retrieve-users-in-application",
-                      "sdk/user/query-users/retrieve-users-in-channel"
+                      "ios/user/query-users/retrieve-users-in-application",
+                      "ios/user/query-users/retrieve-users-in-channel"
                     ]
                   },
                   {
                     "group": "Moderating a user",
                     "pages": [
-                      "sdk/user/moderation/block-and-unblock",
-                      "sdk/user/moderation/query-list-blocked-users"
+                      "ios/user/moderation/block-and-unblock",
+                      "ios/user/moderation/query-list-blocked-users"
                     ]
                   },
                   {
                     "group": "Retrieving and updating user information",
                     "pages": [
-                      "sdk/user/retrieve-and-update/update-information",
-                      "sdk/user/retrieve-and-update/retrieve-online-status"
+                      "ios/user/retrieve-and-update/update-information",
+                      "ios/user/retrieve-and-update/retrieve-online-status"
                     ]
                   }
                 ]
@@ -60,77 +64,77 @@
               {
                 "group": "Channel",
                 "pages": [
-                  "sdk/channel/overview",
+                  "ios/channel/overview",
                   {
                     "group": "Overview",
                     "pages": [
-                      "sdk/channel/overview/channel-types"
+                      "ios/channel/overview/channel-types"
                     ]
                   },
                   {
                     "group": "Creating Channels",
                     "pages": [
-                      "sdk/channel/creating/create-a-channel"
+                      "ios/channel/creating/create-a-channel"
                     ]
                   },
                   {
                     "group": "Retrieving Channels",
                     "pages": [
-                      "sdk/channel/retrieving/retrieve-list-of-channels",
-                      "sdk/channel/retrieving/retrieve-channel-by-url"
+                      "ios/channel/retrieving/retrieve-list-of-channels",
+                      "ios/channel/retrieving/retrieve-channel-by-url"
                     ]
                   },
                   {
                     "group": "Searching Channels",
                     "pages": [
-                      "sdk/channel/searching/search-open-channels",
-                      "sdk/channel/searching/search-group-channels",
-                      "sdk/channel/searching/filter-by-user-ids"
+                      "ios/channel/searching/search-open-channels",
+                      "ios/channel/searching/search-group-channels",
+                      "ios/channel/searching/filter-by-user-ids"
                     ]
                   },
                   {
                     "group": "Categorizing Channels",
                     "pages": [
-                      "sdk/channel/categorizing/by-custom-type"
+                      "ios/channel/categorizing/by-custom-type"
                     ]
                   },
                   {
                     "group": "Joining and Leaving Channels",
                     "pages": [
-                      "sdk/channel/join-leave/group-channel",
-                      "sdk/channel/join-leave/open-channel"
+                      "ios/channel/join-leave/group-channel",
+                      "ios/channel/join-leave/open-channel"
                     ]
                   },
                   {
                     "group": "Managing Operators",
                     "pages": [
-                      "sdk/channel/operators/register-and-remove",
-                      "sdk/channel/operators/retrieve-operators-list"
+                      "ios/channel/operators/register-and-remove",
+                      "ios/channel/operators/retrieve-operators-list"
                     ]
                   },
                   {
                     "group": "Inviting Users to a Group Channel",
                     "pages": [
-                      "sdk/channel/invites/invite-users-as-members",
-                      "sdk/channel/invites/retrieve-list-of-invited-users",
-                      "sdk/channel/invites/accept-invitation",
-                      "sdk/channel/invites/decline-invitation"
+                      "ios/channel/invites/invite-users-as-members",
+                      "ios/channel/invites/retrieve-list-of-invited-users",
+                      "ios/channel/invites/accept-invitation",
+                      "ios/channel/invites/decline-invitation"
                     ]
                   },
                   {
                     "group": "Managing Channels",
                     "pages": [
-                      "sdk/channel/managing/hide-or-archive-channel",
-                      "sdk/channel/managing/delete-channel",
-                      "sdk/channel/managing/refresh-channel",
-                      "sdk/channel/managing/manage-channel-metadata",
-                      "sdk/channel/managing/update-channel-properties"
+                      "ios/channel/managing/hide-or-archive-channel",
+                      "ios/channel/managing/delete-channel",
+                      "ios/channel/managing/refresh-channel",
+                      "ios/channel/managing/manage-channel-metadata",
+                      "ios/channel/managing/update-channel-properties"
                     ]
                   },
                   {
                     "group": "Moderating a Channel",
                     "pages": [
-                      "sdk/channel/moderating/freeze-unfreeze"
+                      "ios/channel/moderating/freeze-unfreeze"
                     ]
                   }
                 ]
@@ -138,148 +142,787 @@
               {
                 "group": "Messages",
                 "pages": [
-                  "sdk/messages/overview",
+                  "ios/messages/overview",
                   {
                     "group": "Message types",
                     "pages": [
-                      "sdk/messages/types/text-message",
-                      "sdk/messages/types/file-message",
-                      "sdk/messages/types/admin-system-message",
-                      "sdk/messages/types/link-preview",
-                      "sdk/messages/types/thumbnails"
+                      "ios/messages/types/text-message",
+                      "ios/messages/types/file-message",
+                      "ios/messages/types/admin-system-message",
+                      "ios/messages/types/link-preview",
+                      "ios/messages/types/thumbnails"
                     ]
                   },
                   {
                     "group": "Sending messages",
                     "pages": [
-                      "sdk/messages/sending/send-text-message",
-                      "sdk/messages/sending/send-file-message",
-                      "sdk/messages/sending/custom-data",
-                      "sdk/messages/sending/mentions"
+                      "ios/messages/sending/send-text-message",
+                      "ios/messages/sending/send-file-message",
+                      "ios/messages/sending/custom-data",
+                      "ios/messages/sending/mentions"
                     ]
                   },
                   {
                     "group": "Receiving & Loading messages",
                     "pages": [
-                      "sdk/messages/receiving-loading/retrieve-messages",
-                      "sdk/messages/receiving-loading/jump-to-message",
-                      "sdk/messages/receiving-loading/live-updates"
+                      "ios/messages/receiving-loading/retrieve-messages",
+                      "ios/messages/receiving-loading/jump-to-message",
+                      "ios/messages/receiving-loading/live-updates"
                     ]
                   },
                   {
                     "group": "Managing a message",
                     "pages": [
-                      "sdk/messages/managing/copy-message",
-                      "sdk/messages/managing/update-message",
-                      "sdk/messages/managing/delete-message"
+                      "ios/messages/managing/copy-message",
+                      "ios/messages/managing/update-message",
+                      "ios/messages/managing/delete-message"
                     ]
                   },
                   {
                     "group": "Reactions",
                     "pages": [
-                      "sdk/messages/reactions/add-remove-reaction",
-                      "sdk/messages/reactions/query-reactions",
-                      "sdk/messages/reactions/ui-hooks"
+                      "ios/messages/reactions/add-remove-reaction",
+                      "ios/messages/reactions/query-reactions",
+                      "ios/messages/reactions/ui-hooks"
                     ]
                   },
                   {
                     "group": "Replies & Threads",
                     "pages": [
-                      "sdk/messages/replies-threads/inline-quote-reply",
-                      "sdk/messages/replies-threads/start-join-thread"
+                      "ios/messages/replies-threads/inline-quote-reply",
+                      "ios/messages/replies-threads/start-join-thread"
                     ]
                   },
                   {
                     "group": "Pinned messages",
                     "pages": [
-                      "sdk/messages/pinned/pin-message",
-                      "sdk/messages/pinned/list-pinned-messages",
-                      "sdk/messages/pinned/unpin-message"
+                      "ios/messages/pinned/pin-message",
+                      "ios/messages/pinned/list-pinned-messages",
+                      "ios/messages/pinned/unpin-message"
                     ]
                   },
                   {
                     "group": "Translations",
                     "pages": [
-                      "sdk/messages/translations/auto-translate-on-send",
-                      "sdk/messages/translations/on-demand-translate"
+                      "ios/messages/translations/auto-translate-on-send",
+                      "ios/messages/translations/on-demand-translate"
                     ]
                   },
                   {
                     "group": "Scheduled messages (group channels)",
                     "pages": [
-                      "sdk/messages/scheduled/create-list",
-                      "sdk/messages/scheduled/update-cancel"
+                      "ios/messages/scheduled/create-list",
+                      "ios/messages/scheduled/update-cancel"
                     ]
                   },
                   {
                     "group": "Message search",
                     "pages": [
-                      "sdk/messages/search/search-queries"
+                      "ios/messages/search/search-queries"
                     ]
                   },
                   {
                     "group": "Mentions",
                     "pages": [
-                      "sdk/messages/mentions/mention-users",
-                      "sdk/messages/mentions/notifications-and-limits"
+                      "ios/messages/mentions/mention-users",
+                      "ios/messages/mentions/notifications-and-limits"
                     ]
                   },
                   {
                     "group": "Moderation (liên quan message)",
                     "pages": [
-                      "sdk/messages/moderation/flag-unflag",
-                      "sdk/messages/moderation/reporting-and-review"
+                      "ios/messages/moderation/flag-unflag",
+                      "ios/messages/moderation/reporting-and-review"
                     ]
                   }
                 ]
               }
+            ]
+          },
+          {
+            "item": "UI Components",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "ios/getting-started/quick-start",
+                  "ios/getting-started/installation",
+                  "ios/getting-started/sample-app"
+                ]
+              },
+              {
+                "group": "User",
+                "pages": [
+                  "ios/user/overview",
+                  {
+                    "group": "Authentication",
+                    "pages": [
+                      "ios/user/authentication/tokens-and-authentication",
+                      "ios/user/authentication/initialization-and-users",
+                      "ios/user/authentication/logging-out"
+                    ]
+                  },
+                  {
+                    "group": "Query users",
+                    "pages": [
+                      "ios/user/query-users/retrieve-users-in-application",
+                      "ios/user/query-users/retrieve-users-in-channel"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a user",
+                    "pages": [
+                      "ios/user/moderation/block-and-unblock",
+                      "ios/user/moderation/query-list-blocked-users"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving and updating user information",
+                    "pages": [
+                      "ios/user/retrieve-and-update/update-information",
+                      "ios/user/retrieve-and-update/retrieve-online-status"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Channel",
+                "pages": [
+                  "ios/channel/overview",
+                  {
+                    "group": "Overview",
+                    "pages": [
+                      "ios/channel/overview/channel-types"
+                    ]
+                  },
+                  {
+                    "group": "Creating Channels",
+                    "pages": [
+                      "ios/channel/creating/create-a-channel"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving Channels",
+                    "pages": [
+                      "ios/channel/retrieving/retrieve-list-of-channels",
+                      "ios/channel/retrieving/retrieve-channel-by-url"
+                    ]
+                  },
+                  {
+                    "group": "Searching Channels",
+                    "pages": [
+                      "ios/channel/searching/search-open-channels",
+                      "ios/channel/searching/search-group-channels",
+                      "ios/channel/searching/filter-by-user-ids"
+                    ]
+                  },
+                  {
+                    "group": "Categorizing Channels",
+                    "pages": [
+                      "ios/channel/categorizing/by-custom-type"
+                    ]
+                  },
+                  {
+                    "group": "Joining and Leaving Channels",
+                    "pages": [
+                      "ios/channel/join-leave/group-channel",
+                      "ios/channel/join-leave/open-channel"
+                    ]
+                  },
+                  {
+                    "group": "Managing Operators",
+                    "pages": [
+                      "ios/channel/operators/register-and-remove",
+                      "ios/channel/operators/retrieve-operators-list"
+                    ]
+                  },
+                  {
+                    "group": "Inviting Users to a Group Channel",
+                    "pages": [
+                      "ios/channel/invites/invite-users-as-members",
+                      "ios/channel/invites/retrieve-list-of-invited-users",
+                      "ios/channel/invites/accept-invitation",
+                      "ios/channel/invites/decline-invitation"
+                    ]
+                  },
+                  {
+                    "group": "Managing Channels",
+                    "pages": [
+                      "ios/channel/managing/hide-or-archive-channel",
+                      "ios/channel/managing/delete-channel",
+                      "ios/channel/managing/refresh-channel",
+                      "ios/channel/managing/manage-channel-metadata",
+                      "ios/channel/managing/update-channel-properties"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a Channel",
+                    "pages": [
+                      "ios/channel/moderating/freeze-unfreeze"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Messages",
+                "pages": [
+                  "ios/messages/overview",
+                  {
+                    "group": "Message types",
+                    "pages": [
+                      "ios/messages/types/text-message",
+                      "ios/messages/types/file-message",
+                      "ios/messages/types/admin-system-message",
+                      "ios/messages/types/link-preview",
+                      "ios/messages/types/thumbnails"
+                    ]
+                  },
+                  {
+                    "group": "Sending messages",
+                    "pages": [
+                      "ios/messages/sending/send-text-message",
+                      "ios/messages/sending/send-file-message",
+                      "ios/messages/sending/custom-data",
+                      "ios/messages/sending/mentions"
+                    ]
+                  },
+                  {
+                    "group": "Receiving & Loading messages",
+                    "pages": [
+                      "ios/messages/receiving-loading/retrieve-messages",
+                      "ios/messages/receiving-loading/jump-to-message",
+                      "ios/messages/receiving-loading/live-updates"
+                    ]
+                  },
+                  {
+                    "group": "Managing a message",
+                    "pages": [
+                      "ios/messages/managing/copy-message",
+                      "ios/messages/managing/update-message",
+                      "ios/messages/managing/delete-message"
+                    ]
+                  },
+                  {
+                    "group": "Reactions",
+                    "pages": [
+                      "ios/messages/reactions/add-remove-reaction",
+                      "ios/messages/reactions/query-reactions",
+                      "ios/messages/reactions/ui-hooks"
+                    ]
+                  },
+                  {
+                    "group": "Replies & Threads",
+                    "pages": [
+                      "ios/messages/replies-threads/inline-quote-reply",
+                      "ios/messages/replies-threads/start-join-thread"
+                    ]
+                  },
+                  {
+                    "group": "Pinned messages",
+                    "pages": [
+                      "ios/messages/pinned/pin-message",
+                      "ios/messages/pinned/list-pinned-messages",
+                      "ios/messages/pinned/unpin-message"
+                    ]
+                  },
+                  {
+                    "group": "Translations",
+                    "pages": [
+                      "ios/messages/translations/auto-translate-on-send",
+                      "ios/messages/translations/on-demand-translate"
+                    ]
+                  },
+                  {
+                    "group": "Scheduled messages (group channels)",
+                    "pages": [
+                      "ios/messages/scheduled/create-list",
+                      "ios/messages/scheduled/update-cancel"
+                    ]
+                  },
+                  {
+                    "group": "Message search",
+                    "pages": [
+                      "ios/messages/search/search-queries"
+                    ]
+                  },
+                  {
+                    "group": "Mentions",
+                    "pages": [
+                      "ios/messages/mentions/mention-users",
+                      "ios/messages/mentions/notifications-and-limits"
+                    ]
+                  },
+                  {
+                    "group": "Moderation (liên quan message)",
+                    "pages": [
+                      "ios/messages/moderation/flag-unflag",
+                      "ios/messages/moderation/reporting-and-review"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
         ]
       },
       {
-        "tab": "UI Components",
-        "icon": "box",
-        "pages": [
-          "ui/overview",
+        "tab": "Android Documentation",
+        "icon": "Android",
+        "menu": [
           {
-            "group": "Getting started",
-            "pages": [
-              "ui/getting-started/installation",
-              "ui/getting-started/quick-start"
+            "item": "SDK Client",
+            "icon": "book-open-cover",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "android/getting-started/quick-start",
+                  "android/getting-started/installation",
+                  "android/getting-started/sample-app"
+                ]
+              },
+              {
+                "group": "User",
+                "pages": [
+                  "android/user/overview",
+                  {
+                    "group": "Authentication",
+                    "pages": [
+                      "android/user/authentication/tokens-and-authentication",
+                      "android/user/authentication/initialization-and-users",
+                      "android/user/authentication/logging-out"
+                    ]
+                  },
+                  {
+                    "group": "Query users",
+                    "pages": [
+                      "android/user/query-users/retrieve-users-in-application",
+                      "android/user/query-users/retrieve-users-in-channel"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a user",
+                    "pages": [
+                      "android/user/moderation/block-and-unblock",
+                      "android/user/moderation/query-list-blocked-users"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving and updating user information",
+                    "pages": [
+                      "android/user/retrieve-and-update/update-information",
+                      "android/user/retrieve-and-update/retrieve-online-status"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Channel",
+                "pages": [
+                  "android/channel/overview",
+                  {
+                    "group": "Overview",
+                    "pages": [
+                      "android/channel/overview/channel-types"
+                    ]
+                  },
+                  {
+                    "group": "Creating Channels",
+                    "pages": [
+                      "android/channel/creating/create-a-channel"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving Channels",
+                    "pages": [
+                      "android/channel/retrieving/retrieve-list-of-channels",
+                      "android/channel/retrieving/retrieve-channel-by-url"
+                    ]
+                  },
+                  {
+                    "group": "Searching Channels",
+                    "pages": [
+                      "android/channel/searching/search-open-channels",
+                      "android/channel/searching/search-group-channels",
+                      "android/channel/searching/filter-by-user-ids"
+                    ]
+                  },
+                  {
+                    "group": "Categorizing Channels",
+                    "pages": [
+                      "android/channel/categorizing/by-custom-type"
+                    ]
+                  },
+                  {
+                    "group": "Joining and Leaving Channels",
+                    "pages": [
+                      "android/channel/join-leave/group-channel",
+                      "android/channel/join-leave/open-channel"
+                    ]
+                  },
+                  {
+                    "group": "Managing Operators",
+                    "pages": [
+                      "android/channel/operators/register-and-remove",
+                      "android/channel/operators/retrieve-operators-list"
+                    ]
+                  },
+                  {
+                    "group": "Inviting Users to a Group Channel",
+                    "pages": [
+                      "android/channel/invites/invite-users-as-members",
+                      "android/channel/invites/retrieve-list-of-invited-users",
+                      "android/channel/invites/accept-invitation",
+                      "android/channel/invites/decline-invitation"
+                    ]
+                  },
+                  {
+                    "group": "Managing Channels",
+                    "pages": [
+                      "android/channel/managing/hide-or-archive-channel",
+                      "android/channel/managing/delete-channel",
+                      "android/channel/managing/refresh-channel",
+                      "android/channel/managing/manage-channel-metadata",
+                      "android/channel/managing/update-channel-properties"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a Channel",
+                    "pages": [
+                      "android/channel/moderating/freeze-unfreeze"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Messages",
+                "pages": [
+                  "android/messages/overview",
+                  {
+                    "group": "Message types",
+                    "pages": [
+                      "android/messages/types/text-message",
+                      "android/messages/types/file-message",
+                      "android/messages/types/admin-system-message",
+                      "android/messages/types/link-preview",
+                      "android/messages/types/thumbnails"
+                    ]
+                  },
+                  {
+                    "group": "Sending messages",
+                    "pages": [
+                      "android/messages/sending/send-text-message",
+                      "android/messages/sending/send-file-message",
+                      "android/messages/sending/custom-data",
+                      "android/messages/sending/mentions"
+                    ]
+                  },
+                  {
+                    "group": "Receiving & Loading messages",
+                    "pages": [
+                      "android/messages/receiving-loading/retrieve-messages",
+                      "android/messages/receiving-loading/jump-to-message",
+                      "android/messages/receiving-loading/live-updates"
+                    ]
+                  },
+                  {
+                    "group": "Managing a message",
+                    "pages": [
+                      "android/messages/managing/copy-message",
+                      "android/messages/managing/update-message",
+                      "android/messages/managing/delete-message"
+                    ]
+                  },
+                  {
+                    "group": "Reactions",
+                    "pages": [
+                      "android/messages/reactions/add-remove-reaction",
+                      "android/messages/reactions/query-reactions",
+                      "android/messages/reactions/ui-hooks"
+                    ]
+                  },
+                  {
+                    "group": "Replies & Threads",
+                    "pages": [
+                      "android/messages/replies-threads/inline-quote-reply",
+                      "android/messages/replies-threads/start-join-thread"
+                    ]
+                  },
+                  {
+                    "group": "Pinned messages",
+                    "pages": [
+                      "android/messages/pinned/pin-message",
+                      "android/messages/pinned/list-pinned-messages",
+                      "android/messages/pinned/unpin-message"
+                    ]
+                  },
+                  {
+                    "group": "Translations",
+                    "pages": [
+                      "android/messages/translations/auto-translate-on-send",
+                      "android/messages/translations/on-demand-translate"
+                    ]
+                  },
+                  {
+                    "group": "Scheduled messages (group channels)",
+                    "pages": [
+                      "android/messages/scheduled/create-list",
+                      "android/messages/scheduled/update-cancel"
+                    ]
+                  },
+                  {
+                    "group": "Message search",
+                    "pages": [
+                      "android/messages/search/search-queries"
+                    ]
+                  },
+                  {
+                    "group": "Mentions",
+                    "pages": [
+                      "android/messages/mentions/mention-users",
+                      "android/messages/mentions/notifications-and-limits"
+                    ]
+                  },
+                  {
+                    "group": "Moderation (liên quan message)",
+                    "pages": [
+                      "android/messages/moderation/flag-unflag",
+                      "android/messages/moderation/reporting-and-review"
+                    ]
+                  }
+                ]
+              }
             ]
           },
           {
-            "group": "Components",
-            "pages": [
-              "ui/components/channel-list",
-              "ui/components/channel",
-              "ui/components/message-list",
-              "ui/components/message-input",
-              "ui/components/user-profile",
-              "ui/components/typing-indicator",
-              "ui/components/connection-status",
-              "ui/components/invite-members",
-              "ui/components/message-search",
-              "ui/components/authentication"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "ui/customization/theming",
-              "ui/customization/custom-components",
-              "ui/customization/localization"
-            ]
-          },
-          {
-            "group": "Advanced guides",
-            "pages": [
-              "ui/advanced-guides/state-management",
-              "ui/advanced-guides/performance-optimization",
-              "ui/advanced-guides/accessibility"
+            "item": "UI Components",
+            "icon": "rocket",
+            "groups": [
+              {
+                "group": "Getting started",
+                "pages": [
+                  "android/getting-started/quick-start",
+                  "android/getting-started/installation",
+                  "android/getting-started/sample-app"
+                ]
+              },
+              {
+                "group": "User",
+                "pages": [
+                  "android/user/overview",
+                  {
+                    "group": "Authentication",
+                    "pages": [
+                      "android/user/authentication/tokens-and-authentication",
+                      "android/user/authentication/initialization-and-users",
+                      "android/user/authentication/logging-out"
+                    ]
+                  },
+                  {
+                    "group": "Query users",
+                    "pages": [
+                      "android/user/query-users/retrieve-users-in-application",
+                      "android/user/query-users/retrieve-users-in-channel"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a user",
+                    "pages": [
+                      "android/user/moderation/block-and-unblock",
+                      "android/user/moderation/query-list-blocked-users"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving and updating user information",
+                    "pages": [
+                      "android/user/retrieve-and-update/update-information",
+                      "android/user/retrieve-and-update/retrieve-online-status"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Channel",
+                "pages": [
+                  "android/channel/overview",
+                  {
+                    "group": "Overview",
+                    "pages": [
+                      "android/channel/overview/channel-types"
+                    ]
+                  },
+                  {
+                    "group": "Creating Channels",
+                    "pages": [
+                      "android/channel/creating/create-a-channel"
+                    ]
+                  },
+                  {
+                    "group": "Retrieving Channels",
+                    "pages": [
+                      "android/channel/retrieving/retrieve-list-of-channels",
+                      "android/channel/retrieving/retrieve-channel-by-url"
+                    ]
+                  },
+                  {
+                    "group": "Searching Channels",
+                    "pages": [
+                      "android/channel/searching/search-open-channels",
+                      "android/channel/searching/search-group-channels",
+                      "android/channel/searching/filter-by-user-ids"
+                    ]
+                  },
+                  {
+                    "group": "Categorizing Channels",
+                    "pages": [
+                      "android/channel/categorizing/by-custom-type"
+                    ]
+                  },
+                  {
+                    "group": "Joining and Leaving Channels",
+                    "pages": [
+                      "android/channel/join-leave/group-channel",
+                      "android/channel/join-leave/open-channel"
+                    ]
+                  },
+                  {
+                    "group": "Managing Operators",
+                    "pages": [
+                      "android/channel/operators/register-and-remove",
+                      "android/channel/operators/retrieve-operators-list"
+                    ]
+                  },
+                  {
+                    "group": "Inviting Users to a Group Channel",
+                    "pages": [
+                      "android/channel/invites/invite-users-as-members",
+                      "android/channel/invites/retrieve-list-of-invited-users",
+                      "android/channel/invites/accept-invitation",
+                      "android/channel/invites/decline-invitation"
+                    ]
+                  },
+                  {
+                    "group": "Managing Channels",
+                    "pages": [
+                      "android/channel/managing/hide-or-archive-channel",
+                      "android/channel/managing/delete-channel",
+                      "android/channel/managing/refresh-channel",
+                      "android/channel/managing/manage-channel-metadata",
+                      "android/channel/managing/update-channel-properties"
+                    ]
+                  },
+                  {
+                    "group": "Moderating a Channel",
+                    "pages": [
+                      "android/channel/moderating/freeze-unfreeze"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Messages",
+                "pages": [
+                  "android/messages/overview",
+                  {
+                    "group": "Message types",
+                    "pages": [
+                      "android/messages/types/text-message",
+                      "android/messages/types/file-message",
+                      "android/messages/types/admin-system-message",
+                      "android/messages/types/link-preview",
+                      "android/messages/types/thumbnails"
+                    ]
+                  },
+                  {
+                    "group": "Sending messages",
+                    "pages": [
+                      "android/messages/sending/send-text-message",
+                      "android/messages/sending/send-file-message",
+                      "android/messages/sending/custom-data",
+                      "android/messages/sending/mentions"
+                    ]
+                  },
+                  {
+                    "group": "Receiving & Loading messages",
+                    "pages": [
+                      "android/messages/receiving-loading/retrieve-messages",
+                      "android/messages/receiving-loading/jump-to-message",
+                      "android/messages/receiving-loading/live-updates"
+                    ]
+                  },
+                  {
+                    "group": "Managing a message",
+                    "pages": [
+                      "android/messages/managing/copy-message",
+                      "android/messages/managing/update-message",
+                      "android/messages/managing/delete-message"
+                    ]
+                  },
+                  {
+                    "group": "Reactions",
+                    "pages": [
+                      "android/messages/reactions/add-remove-reaction",
+                      "android/messages/reactions/query-reactions",
+                      "android/messages/reactions/ui-hooks"
+                    ]
+                  },
+                  {
+                    "group": "Replies & Threads",
+                    "pages": [
+                      "android/messages/replies-threads/inline-quote-reply",
+                      "android/messages/replies-threads/start-join-thread"
+                    ]
+                  },
+                  {
+                    "group": "Pinned messages",
+                    "pages": [
+                      "android/messages/pinned/pin-message",
+                      "android/messages/pinned/list-pinned-messages",
+                      "android/messages/pinned/unpin-message"
+                    ]
+                  },
+                  {
+                    "group": "Translations",
+                    "pages": [
+                      "android/messages/translations/auto-translate-on-send",
+                      "android/messages/translations/on-demand-translate"
+                    ]
+                  },
+                  {
+                    "group": "Scheduled messages (group channels)",
+                    "pages": [
+                      "android/messages/scheduled/create-list",
+                      "android/messages/scheduled/update-cancel"
+                    ]
+                  },
+                  {
+                    "group": "Message search",
+                    "pages": [
+                      "android/messages/search/search-queries"
+                    ]
+                  },
+                  {
+                    "group": "Mentions",
+                    "pages": [
+                      "android/messages/mentions/mention-users",
+                      "android/messages/mentions/notifications-and-limits"
+                    ]
+                  },
+                  {
+                    "group": "Moderation (liên quan message)",
+                    "pages": [
+                      "android/messages/moderation/flag-unflag",
+                      "android/messages/moderation/reporting-and-review"
+                    ]
+                  }
+                ]
+              }
             ]
           }
         ]
       }
+
     ],
     "global": {
       "anchors": [
