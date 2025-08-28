@@ -1,0 +1,25 @@
+---
+title: 'Quick Start (Send your first message)'
+description: 'Gửi tin nhắn đầu tiên với SDK'
+---
+
+## Mục tiêu
+- Cài đặt SDK, khởi tạo client, và gửi tin nhắn đầu tiên.
+
+## Yêu cầu
+- API key / App ID
+- Token (nếu dùng xác thực)
+
+## Ví dụ nhanh
+> Nội dung sẽ được bổ sung theo SDK cụ thể (Web/iOS/Android).
+
+```ts
+// pseudo-code
+const client = new SDK({ apiKey: 'YOUR_KEY' })
+await client.connect({ userId: 'alice', token: '...' })
+const channel = await client.channel.getOrCreate({ members: ['alice', 'bob'] })
+await channel.messages.sendText('Hello world!')
+```
+
+## Tiếp theo
+- Xem phần Installation và Sample App để biết thêm chi tiết.
